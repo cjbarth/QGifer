@@ -1,4 +1,4 @@
-CMAKE_MINIMUM_REQUIRED (VERSION 2.6)
+CMAKE_MINIMUM_REQUIRED (VERSION 2.8.12)
 
 
 #------------------------------------------------------
@@ -49,7 +49,7 @@ IF(WIN32)
 ENDIF(WIN32)
 
 FIND_PACKAGE(OpenCV REQUIRED core highgui imgproc videoio)
-FIND_PACKAGE(Qt4 REQUIRED QtCore QtGui)
+FIND_PACKAGE(Qt5 REQUIRED QtCore QtGui)
 FIND_PACKAGE(GIF REQUIRED)
 
 INCLUDE(${QT_USE_FILE})
